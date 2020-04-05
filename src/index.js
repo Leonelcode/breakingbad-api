@@ -14,6 +14,9 @@ class App extends React.Component {
         <Navbar />
           <Switch>
             <Route exact path='/' component={CharacterIndex} />
+            <Route path='/seasons/:id' component={EpisodeIndex} />
+            <Route path="/seasons" component={SeasonIndex} />
+            <Route path="/deaths" component={Deaths} />
           </Switch>
         </>
       </BrowserRouter>
