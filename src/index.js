@@ -11,6 +11,7 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <>
+        <Navbar />
           <Switch>
             <Route exact path='/' component={CharacterIndex} />
           </Switch>
