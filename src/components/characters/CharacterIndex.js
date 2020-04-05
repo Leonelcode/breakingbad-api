@@ -1,6 +1,8 @@
 import React from 'react'
 import axios from 'axios'
 import CharacterCard from './CharacterCard'
+import Hero from '../common/Hero'
+import Deaths from '../deaths/Deaths'
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import { withStyles } from '@material-ui/core/styles';
@@ -33,6 +35,8 @@ class CharacterIndex extends React.Component {
 
     return (
       <React.Fragment>
+        <Hero />
+        <Deaths />
         <Container className={classes.cardGrid} maxWidth="md">
           <Typography component="h2" variant="h5" color="primary" gutterBottom>
             Characters
