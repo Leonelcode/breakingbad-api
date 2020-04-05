@@ -4,7 +4,9 @@ import './stylesheets/main.css'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Navbar from './components/common/Navbar'
 import CharacterIndex from './components/characters/CharacterIndex'
-
+import SeasonIndex from './components/seasons/SeasonIndex'
+import EpisodeIndex from './components/episodes/EpisodeIndex'
+import Deaths from './components/deaths/Deaths'
 
 class App extends React.Component {
   render() {
